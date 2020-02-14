@@ -4,4 +4,4 @@ language: python
 install:
   - pip install -r "requirements.txt"
 script:
-  - pytest tests.py account/tests.py products/tests.py
+  - pytest tests.py products/tests.py
