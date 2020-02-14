@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.models import User
 from django.contrib import auth
 
+
 def signup(request):
     if request.method == 'POST':
         # User has info and wants an account now!
