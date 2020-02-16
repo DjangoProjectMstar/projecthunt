@@ -8,7 +8,7 @@ class AccountTestCase(TestCase):
     def setUp(self):
         self.request_invalid_user_mock = {'username': 'abc', 'password': 'xyz'}
         self.request_valid_user_mock = {'username': 'abcd', 'password': '1234'}
-        self.login_uri = '/accounts/login'
+        self.login_uri = '/account/login'
 
     def test_loginInValid(self):
         client = Client()
